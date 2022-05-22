@@ -1,0 +1,38 @@
+Parsing ./BAGEL_data/FCIDUMP.H2_rel **** modified by nishio for FCIDUMP from zfci module of BAGEL ****
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -9.235936
+         Iterations: 140
+         Function evaluations: 6556
+         Gradient evaluations: 149
+sample=0
+BAGEL
+1   0  *      -1.10844849     1.57e-14      0.00
+1   1  *      -0.83268531     3.65e-13      0.00
+1   2  *      -0.83268531     4.41e-13      0.00
+
+ssVQE [-1.10700455 -0.953587   -0.83268531]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -9.031961
+         Iterations: 148
+         Function evaluations: 7700
+         Gradient evaluations: 175
+sample=1
+BAGEL
+1   0  *      -1.10844849     1.57e-14      0.00
+1   1  *      -0.83268531     3.65e-13      0.00
+1   2  *      -0.83268531     4.41e-13      0.00
+
+ssVQE [-1.1058018  -0.79143664 -0.95661892]
+Divide-by-zero encountered: rhok assumed large
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -8.542976
+         Iterations: 79
+         Function evaluations: 4576
+         Gradient evaluations: 104
+sample=2
+BAGEL
+1   0  *      -1.10844849     1.57e-14      0.00
+1   1  *      -0.83268531     3.65e-13      0.00
+1   2  *      -0.83268531     4.41e-13      0.00
+
+ssVQE [-0.95661892 -0.83268531 -0.83268531]

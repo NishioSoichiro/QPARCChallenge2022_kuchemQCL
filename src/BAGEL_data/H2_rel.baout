@@ -1,0 +1,230 @@
+  * process grid (1, 1) will be used
+    k09.qcl.theoc.kuchem.kyoto-u.ac.jp
+
+  * using 1 threads per process
+
+  ===============================================================
+    BAGEL - Freshly leavened quantum chemistry                   
+  ===============================================================
+
+  *** Geometry ***
+
+  { "atom" : "H", "xyz" : [      0.000000,      0.000000,      0.000000 ] },
+  { "atom" : "H", "xyz" : [      0.000000,      0.000000,      1.889726 ] },
+
+  Number of auxiliary basis functions:       36
+
+  Since a DF basis is specified, we compute 2- and 3-index integrals:
+    o Being stored without compression. Storage requirement is 0.000 GB
+       - 3-index ints prep                         0.00
+       - 3-index ints                              0.02
+       - 2-index ints                              0.00
+       - computing inverse                         0.00
+        elapsed time:        0.02 sec.
+
+
+  Number of basis functions:       10
+  Number of electrons      :        2
+
+
+    * METHOD: MOLECULE                             0.06
+
+       - Overlap matrix                            0.00
+       - Hcore matrix                              0.00
+       - Overlap orthog                            0.00
+
+  *** RHF ***
+
+  === Nuclear Repulsion ===
+  
+     0.5291772107
+
+      * DIIS with orbital gradients will be used.
+
+       - SCF startup                               0.04
+
+  === RHF iteration (svp) ===
+  
+               o Fock build                                  0.00
+      0         -1.09762839          0.01130084           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      1         -1.10006850          0.00185505           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      2         -1.10015120          0.00010877           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      3         -1.10015135          0.00000118           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      4         -1.10015135          0.00000004           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      5         -1.10015135          0.00000001           0.00
+               o DIIS                                        0.00
+               o Diag                                        0.00
+               o Post process                                0.00
+               o Fock build                                  0.00
+      6         -1.10015135          0.00000000           0.00
+  
+    * SCF iteration converged.
+
+    * Permanent dipole moment:
+           (    0.000000,    -0.000000,     0.000000) a.u.
+
+
+    * METHOD: HF                                   0.05
+
+  *** Geometry (Relativistic) ***
+       - 3-index ints post                         0.00
+       - 3-index ints prep                         0.00
+       - 3-index ints                              0.01
+       - 3-index ints post                         0.00
+
+       - Geometry relativistic (total)             0.01
+
+  *** Dirac HF ***
+
+       - 1-electron integrals                      0.00
+       - Coulomb: half trans                       0.00
+       - Coulomb: metric multiply                  0.00
+       - Coulomb: J operator                       0.00
+       - Coulomb: K operator                       0.00
+  === Nuclear Repulsion ===
+  
+     0.5291772107
+
+      * DIIS with orbital gradients will be used.
+
+       - SCF startup                               0.03
+
+  === Dirac RHF iteration (svp, RKB) ===
+  
+       - Coulomb: half trans                       0.00
+       - Coulomb: metric multiply                  0.00
+       - Coulomb: J operator                       0.00
+       - Coulomb: K operator                       0.00
+               o Fock build                                  0.01
+      0         -1.10016023          0.00000102           0.01
+       - Coulomb: half trans                       0.00
+       - Coulomb: metric multiply                  0.00
+       - Coulomb: J operator                       0.00
+       - Coulomb: K operator                       0.00
+               o Fock build                                  0.01
+      1         -1.10016023          0.00000009           0.01
+               o DIIS                                        0.01
+       - Coulomb: half trans                       0.00
+       - Coulomb: metric multiply                  0.00
+       - Coulomb: J operator                       0.00
+       - Coulomb: K operator                       0.00
+               o Fock build                                  0.01
+      2         -1.10016023          0.00000002           0.02
+               o DIIS                                        0.00
+       - Coulomb: half trans                       0.00
+       - Coulomb: metric multiply                  0.00
+       - Coulomb: J operator                       0.00
+       - Coulomb: K operator                       0.00
+               o Fock build                                  0.01
+      3         -1.10016023          0.00000000           0.01
+  
+    * SCF iteration converged.
+
+    * Permanent dipole moment: Dirac Hartree-Fock
+           (    0.000000,     0.000000,    -0.000000) a.u.
+
+    * METHOD: DHF                                  0.10
+
+  ------------------------------
+  Spin-nonconserving complex FCI
+  ------------------------------
+
+    * nstate   :      3
+    * nclosed  :      0
+    * nact     :      2
+    * nvirt    :      8
+
+    * Relativistic FCI
+    * 2 active electrons in 2 orbitals.
+    * gaunt    : false
+    * breit    : false
+  *** Geometry (Relativistic) ***
+       - 3-index ints post                         0.00
+       - 3-index ints prep                         0.00
+       - 3-index ints                              0.00
+       - 3-index ints post                         0.00
+
+       - Geometry relativistic (total)             0.00
+
+    * Integral transformation done. Elapsed time: 0.01
+
+       - jop, kop                                  0.00
+       - denom                                     0.00
+     guess   0:   closed 1.                   open ..                  
+
+     guess   1:   closed ..                   open 11                  
+
+     guess   2:   closed ..                   open 11                  
+
+                 * guess generation                            0.00
+  === Relativistic FCI iteration ===
+
+                 * sigma vector                                0.00
+                 * davidson                                    0.01
+                 * error                                       0.00
+                 * denominator                                 0.00
+      0   0         -1.10016023     3.41e-02      0.01
+      0   1  *      -0.83268531     2.17e-12      0.00
+      0   2         -0.70965756     3.00e-02      0.00
+                 * sigma vector                                0.00
+                 * davidson                                    0.00
+                 * error                                       0.00
+                 * denominator                                 0.00
+
+      1   0  *      -1.10844849     1.57e-14      0.00
+      1   1  *      -0.83268531     3.65e-13      0.00
+      1   2  *      -0.83268531     4.41e-13      0.00
+
+     * ci vector, state   0
+
+     * ci vector, state   1
+       bb  (-0.4946916076,0.0080422645)
+
+     * ci vector, state   2
+       bb  (0.2111654462,-0.5847755068)
+
+     * ci vector, state   0
+       2.  (0.9951014569,-0.0000000000)
+       .2  (0.0947052299,0.0283550698)
+
+     * ci vector, state   1
+       ba  (0.2503545721,0.0024570470)
+       ab  (-0.2424471062,0.0624727904)
+
+     * ci vector, state   2
+       ba  (0.2014606863,-0.5151625369)
+       ab  (-0.0611497729,0.5497631789)
+
+     * ci vector, state   0
+
+     * ci vector, state   1
+       aa  (-0.7735057960,0.1775877847)
+
+     * ci vector, state   2
+
+    * METHOD: ZFCI                                 0.03
+
+
+  
+  ===============================================================
+
